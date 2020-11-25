@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,10 +14,27 @@
 		348B415424F72E7F0086FCCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 348B415324F72E7F0086FCCD /* Assets.xcassets */; };
 		348B415724F72E7F0086FCCD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 348B415624F72E7F0086FCCD /* Preview Assets.xcassets */; };
 		348B415A24F72E7F0086FCCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 348B415824F72E7F0086FCCD /* LaunchScreen.storyboard */; };
+		348B416224F72FC80086FCCD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 348B416124F72FC80086FCCD /* GoogleService-Info.plist */; };
+		348B416724F7348E0086FCCD /* Signin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348B416624F7348E0086FCCD /* Signin.swift */; };
+		348B416924F738590086FCCD /* VerifyCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348B416824F738590086FCCD /* VerifyCode.swift */; };
+		348B417024F73BB80086FCCD /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348B416D24F73BB80086FCCD /* Observable.swift */; };
+		348B417524F73BEA0086FCCD /* UpdateMsgDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348B417224F73BE90086FCCD /* UpdateMsgDB.swift */; };
+		348B417624F73BEA0086FCCD /* GetAllUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348B417324F73BEA0086FCCD /* GetAllUsers.swift */; };
+		348B417724F73BEA0086FCCD /* MsgObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348B417424F73BEA0086FCCD /* MsgObjects.swift */; };
+		348B417C24F73C0C0086FCCD /* CreateUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348B417924F73C0B0086FCCD /* CreateUser.swift */; };
+		348B417D24F73C0C0086FCCD /* UserLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348B417A24F73C0C0086FCCD /* UserLogin.swift */; };
+		348B417E24F73C0C0086FCCD /* CheckUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348B417B24F73C0C0086FCCD /* CheckUser.swift */; };
+		348B418024F73C520086FCCD /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348B417F24F73C520086FCCD /* Home.swift */; };
+		348B418624F74CCB0086FCCD /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348B418424F74CCB0086FCCD /* ImagePicker.swift */; };
+		348B418724F74CCB0086FCCD /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348B418524F74CCB0086FCCD /* Indicator.swift */; };
+		348B418924F74CCE0086FCCD /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348B418824F74CCE0086FCCD /* SearchBar.swift */; };
+		348B418C24F7552C0086FCCD /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348B418B24F7552C0086FCCD /* ChatView.swift */; };
+		348B418E24F7554A0086FCCD /* ChatBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348B418D24F7554A0086FCCD /* ChatBubble.swift */; };
+		78F5C625BAB0C596FB1A8AC6 /* Pods_piggiechat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA00F46E12793886DE7C69C0 /* Pods_piggiechat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		348B414724F72E780086FCCD /* piggiechat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = piggiechat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		348B414724F72E780086FCCD /* PiggieChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PiggieChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		348B414A24F72E780086FCCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		348B414C24F72E780086FCCD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		348B414F24F72E780086FCCD /* piggiechat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = piggiechat.xcdatamodel; sourceTree = "<group>"; };
@@ -26,6 +43,25 @@
 		348B415624F72E7F0086FCCD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		348B415924F72E7F0086FCCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		348B415B24F72E7F0086FCCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		348B416124F72FC80086FCCD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		348B416624F7348E0086FCCD /* Signin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signin.swift; sourceTree = "<group>"; };
+		348B416824F738590086FCCD /* VerifyCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyCode.swift; sourceTree = "<group>"; };
+		348B416D24F73BB80086FCCD /* Observable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		348B417224F73BE90086FCCD /* UpdateMsgDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateMsgDB.swift; sourceTree = "<group>"; };
+		348B417324F73BEA0086FCCD /* GetAllUsers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetAllUsers.swift; sourceTree = "<group>"; };
+		348B417424F73BEA0086FCCD /* MsgObjects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MsgObjects.swift; sourceTree = "<group>"; };
+		348B417924F73C0B0086FCCD /* CreateUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateUser.swift; sourceTree = "<group>"; };
+		348B417A24F73C0C0086FCCD /* UserLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLogin.swift; sourceTree = "<group>"; };
+		348B417B24F73C0C0086FCCD /* CheckUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckUser.swift; sourceTree = "<group>"; };
+		348B417F24F73C520086FCCD /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		348B418424F74CCB0086FCCD /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		348B418524F74CCB0086FCCD /* Indicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Indicator.swift; sourceTree = "<group>"; };
+		348B418824F74CCE0086FCCD /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		348B418B24F7552C0086FCCD /* ChatView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		348B418D24F7554A0086FCCD /* ChatBubble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatBubble.swift; sourceTree = "<group>"; };
+		5BAAB265E2F726A32B026205 /* Pods-piggiechat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-piggiechat.debug.xcconfig"; path = "Target Support Files/Pods-piggiechat/Pods-piggiechat.debug.xcconfig"; sourceTree = "<group>"; };
+		C0D7F79DD02B7E1C8C21DF96 /* Pods-piggiechat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-piggiechat.release.xcconfig"; path = "Target Support Files/Pods-piggiechat/Pods-piggiechat.release.xcconfig"; sourceTree = "<group>"; };
+		CA00F46E12793886DE7C69C0 /* Pods_piggiechat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_piggiechat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,24 +69,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78F5C625BAB0C596FB1A8AC6 /* Pods_piggiechat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		149B327159BA680A48E73501 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA00F46E12793886DE7C69C0 /* Pods_piggiechat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		348B413E24F72E780086FCCD = {
 			isa = PBXGroup;
 			children = (
 				348B414924F72E780086FCCD /* piggiechat */,
 				348B414824F72E780086FCCD /* Products */,
+				7D8C458856BAD7162F76CAEE /* Pods */,
+				149B327159BA680A48E73501 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		348B414824F72E780086FCCD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				348B414724F72E780086FCCD /* piggiechat.app */,
+				348B414724F72E780086FCCD /* PiggieChat.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,6 +105,9 @@
 		348B414924F72E780086FCCD /* piggiechat */ = {
 			isa = PBXGroup;
 			children = (
+				348B416424F734750086FCCD /* Model */,
+				348B416324F7345F0086FCCD /* View */,
+				348B416124F72FC80086FCCD /* GoogleService-Info.plist */,
 				348B414A24F72E780086FCCD /* AppDelegate.swift */,
 				348B414C24F72E780086FCCD /* SceneDelegate.swift */,
 				348B415124F72E780086FCCD /* ContentView.swift */,
@@ -78,6 +128,92 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		348B416324F7345F0086FCCD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				348B418A24F754F70086FCCD /* Chat */,
+				348B418324F74CC20086FCCD /* Common */,
+				348B416A24F73AF60086FCCD /* Home */,
+				348B416524F734820086FCCD /* Signin */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		348B416424F734750086FCCD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				348B417824F73BFD0086FCCD /* Login */,
+				348B417124F73BDF0086FCCD /* Chat */,
+				348B416D24F73BB80086FCCD /* Observable.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		348B416524F734820086FCCD /* Signin */ = {
+			isa = PBXGroup;
+			children = (
+				348B416624F7348E0086FCCD /* Signin.swift */,
+				348B416824F738590086FCCD /* VerifyCode.swift */,
+			);
+			path = Signin;
+			sourceTree = "<group>";
+		};
+		348B416A24F73AF60086FCCD /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				348B417F24F73C520086FCCD /* Home.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		348B417124F73BDF0086FCCD /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				348B417324F73BEA0086FCCD /* GetAllUsers.swift */,
+				348B417424F73BEA0086FCCD /* MsgObjects.swift */,
+				348B417224F73BE90086FCCD /* UpdateMsgDB.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		348B417824F73BFD0086FCCD /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				348B417B24F73C0C0086FCCD /* CheckUser.swift */,
+				348B417924F73C0B0086FCCD /* CreateUser.swift */,
+				348B417A24F73C0C0086FCCD /* UserLogin.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		348B418324F74CC20086FCCD /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				348B418424F74CCB0086FCCD /* ImagePicker.swift */,
+				348B418524F74CCB0086FCCD /* Indicator.swift */,
+				348B418824F74CCE0086FCCD /* SearchBar.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		348B418A24F754F70086FCCD /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				348B418D24F7554A0086FCCD /* ChatBubble.swift */,
+				348B418B24F7552C0086FCCD /* ChatView.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		7D8C458856BAD7162F76CAEE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5BAAB265E2F726A32B026205 /* Pods-piggiechat.debug.xcconfig */,
+				C0D7F79DD02B7E1C8C21DF96 /* Pods-piggiechat.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -85,9 +221,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 348B415E24F72E7F0086FCCD /* Build configuration list for PBXNativeTarget "piggiechat" */;
 			buildPhases = (
+				F131460FF6AEE19522904E77 /* [CP] Check Pods Manifest.lock */,
 				348B414324F72E780086FCCD /* Sources */,
 				348B414424F72E780086FCCD /* Frameworks */,
 				348B414524F72E780086FCCD /* Resources */,
+				17834796C9ABF6E5D5EDB1F6 /* [CP] Embed Pods Frameworks */,
+				3EC02A78CDF1033203A5365D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -95,7 +234,7 @@
 			);
 			name = piggiechat;
 			productName = piggiechat;
-			productReference = 348B414724F72E780086FCCD /* piggiechat.app */;
+			productReference = 348B414724F72E780086FCCD /* PiggieChat.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +244,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1160;
-				LastUpgradeCheck = 1160;
+				LastUpgradeCheck = 1220;
 				ORGANIZATIONNAME = Programmer7;
 				TargetAttributes = {
 					348B414624F72E780086FCCD = {
@@ -137,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				348B415A24F72E7F0086FCCD /* LaunchScreen.storyboard in Resources */,
+				348B416224F72FC80086FCCD /* GoogleService-Info.plist in Resources */,
 				348B415724F72E7F0086FCCD /* Preview Assets.xcassets in Resources */,
 				348B415424F72E7F0086FCCD /* Assets.xcassets in Resources */,
 			);
@@ -144,15 +284,89 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		17834796C9ABF6E5D5EDB1F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-piggiechat/Pods-piggiechat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-piggiechat/Pods-piggiechat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-piggiechat/Pods-piggiechat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3EC02A78CDF1033203A5365D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-piggiechat/Pods-piggiechat-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-piggiechat/Pods-piggiechat-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-piggiechat/Pods-piggiechat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F131460FF6AEE19522904E77 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-piggiechat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		348B414324F72E780086FCCD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				348B414B24F72E780086FCCD /* AppDelegate.swift in Sources */,
+				348B416724F7348E0086FCCD /* Signin.swift in Sources */,
+				348B417D24F73C0C0086FCCD /* UserLogin.swift in Sources */,
 				348B415024F72E780086FCCD /* piggiechat.xcdatamodeld in Sources */,
+				348B418C24F7552C0086FCCD /* ChatView.swift in Sources */,
+				348B417024F73BB80086FCCD /* Observable.swift in Sources */,
+				348B417724F73BEA0086FCCD /* MsgObjects.swift in Sources */,
+				348B418024F73C520086FCCD /* Home.swift in Sources */,
+				348B418724F74CCB0086FCCD /* Indicator.swift in Sources */,
+				348B418E24F7554A0086FCCD /* ChatBubble.swift in Sources */,
+				348B417524F73BEA0086FCCD /* UpdateMsgDB.swift in Sources */,
+				348B416924F738590086FCCD /* VerifyCode.swift in Sources */,
 				348B415224F72E780086FCCD /* ContentView.swift in Sources */,
 				348B414D24F72E780086FCCD /* SceneDelegate.swift in Sources */,
+				348B417E24F73C0C0086FCCD /* CheckUser.swift in Sources */,
+				348B418624F74CCB0086FCCD /* ImagePicker.swift in Sources */,
+				348B417624F73BEA0086FCCD /* GetAllUsers.swift in Sources */,
+				348B418924F74CCE0086FCCD /* SearchBar.swift in Sources */,
+				348B417C24F73C0C0086FCCD /* CreateUser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +410,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -256,6 +471,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -286,6 +502,7 @@
 		};
 		348B415F24F72E7F0086FCCD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BAAB265E2F726A32B026205 /* Pods-piggiechat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,7 +515,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.programmer7.piggiechat;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PiggieChat;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -306,6 +523,7 @@
 		};
 		348B416024F72E7F0086FCCD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0D7F79DD02B7E1C8C21DF96 /* Pods-piggiechat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -318,7 +536,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.programmer7.piggiechat;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PiggieChat;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
