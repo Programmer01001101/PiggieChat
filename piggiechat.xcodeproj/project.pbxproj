@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3435C23E256E091000F22630 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 3435C23D256E091000F22630 /* .gitignore */; };
 		348B414B24F72E780086FCCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348B414A24F72E780086FCCD /* AppDelegate.swift */; };
 		348B414D24F72E780086FCCD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348B414C24F72E780086FCCD /* SceneDelegate.swift */; };
 		348B415024F72E780086FCCD /* piggiechat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 348B414E24F72E780086FCCD /* piggiechat.xcdatamodeld */; };
@@ -34,6 +35,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3435C23D256E091000F22630 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		348B414724F72E780086FCCD /* PiggieChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PiggieChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		348B414A24F72E780086FCCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		348B414C24F72E780086FCCD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				348B415824F72E7F0086FCCD /* LaunchScreen.storyboard */,
 				348B415B24F72E7F0086FCCD /* Info.plist */,
 				348B414E24F72E780086FCCD /* piggiechat.xcdatamodeld */,
+				3435C23D256E091000F22630 /* .gitignore */,
 				348B415524F72E7F0086FCCD /* Preview Content */,
 			);
 			path = piggiechat;
@@ -275,6 +278,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3435C23E256E091000F22630 /* .gitignore in Resources */,
 				348B415A24F72E7F0086FCCD /* LaunchScreen.storyboard in Resources */,
 				348B416224F72FC80086FCCD /* GoogleService-Info.plist in Resources */,
 				348B415724F72E7F0086FCCD /* Preview Assets.xcassets in Resources */,
